@@ -1,0 +1,21 @@
+{
+  "name": "cabinet-api-v2",
+  "version": "1.0.0",
+  "description": "A simple and basic express based API",
+  "main": "api.js",
+  "author": "Andrew D. Murray",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "morgan-body": "^2.4.5",
+    "nodemon": "^1.18.5"
+  }
+}
